@@ -1,1 +1,0 @@
-from kaggle_image_manipulation import image_manipulation
