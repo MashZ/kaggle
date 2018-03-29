@@ -1,10 +1,10 @@
 import numpy as np
 import keras
 from keras.layers import Conv2D, MaxPooling2D, Conv2DTranspose, Dense, Dropout, Flatten, Input
-from keras.optimizers import SGD
+from keras.optimizers import SGD, Adam
 from keras.utils import plot_model
 from keras.models import Model, Sequential
-from keras.layers.convolutional import Conv2D
+from keras.layers.convolutional import Conv2D, UpSampling2D
 from keras.layers.pooling import MaxPooling2D
 from keras.layers.merge import concatenate, Add
 import graphviz
